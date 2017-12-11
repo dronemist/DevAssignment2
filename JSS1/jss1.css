@@ -1,0 +1,63 @@
+body{
+  background-color: mintcream;
+  width:50%;
+  height=50%
+  height:auto;
+  border:1px solid black;
+  margin:0 25% 40% 25%;
+}
+h1{
+  color:blue;
+  font-style: italic;
+  opacity:0.75 ;
+  text-align:center;
+  background-color: coral;
+  font-size: 8vmin;
+
+}
+
+li{
+  margin: 2vmin;
+  padding: 2vmin;
+  cursor:pointer;
+  color:blue;
+  background-color: white;
+  margin:5vmin;
+  font-style: italic;
+  text-decoration: none;
+}
+.mybutton{
+  background-color: orchid;
+  color:white;
+}
+.todolist{
+  color: blue;
+  background-color: mistyrose;
+}
+.delete{
+  background-color: red;
+  padding: 5px 6px 5px 6px;
+  color: black !important;
+  width:auto;
+  opacity:0;
+  postion: relative;
+  float: right;
+}
+.edit{
+  background-color: yellow;
+  padding: 5px 6px 5px 6px;
+  width:auto;
+  opacity:0;
+
+  float: right;
+}
+li:hover .delete{
+  opacity:0.75;
+}
+li:hover .edit{
+  opacity:0.75;
+}
+.inputtype{
+  display: block;
+  text-decoration: none !important;
+}
