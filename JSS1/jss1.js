@@ -48,7 +48,7 @@ function deletetodo(y){
 
 }
 function edittodo(z){
-  a=1;
+  a=0;
   var div=z.parentElement;
   var li=document.createElement("li");
   var child=prompt("enter the new value");
